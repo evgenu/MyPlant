@@ -23,7 +23,7 @@ const Page: React.FC = () => {
             <IonTitle size="large">My Plants</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <PlantsList name="My Plants" />
+        <PlantsList/>
       </IonContent>
     </IonPage>
   );
