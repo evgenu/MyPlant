@@ -1,11 +1,10 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import { useParams } from 'react-router';
-import './Page.css';
+import PlantsList from '../components/PlantsList';
+import './MyPlants.css';
 
 const Page: React.FC = () => {
-
-  const { name } = useParams<{ name: string; }>();
 
   return (
     <IonPage>
@@ -14,16 +13,17 @@ const Page: React.FC = () => {
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>{name}</IonTitle>
+          <IonTitle>My Plants</IonTitle>
         </IonToolbar>
       </IonHeader>
 
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">{name}</IonTitle>
+            <IonTitle size="large">My Plants</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <PlantsList name="My Plants" />
       </IonContent>
     </IonPage>
   );
