@@ -1,6 +1,6 @@
 import React from 'react';
 import './PlantsList.css';
-import { IonList, IonItem, IonLabel, IonButton, IonItemDivider, IonNote } from '@ionic/react';
+import { IonList, IonItem, IonLabel, IonNote } from '@ionic/react';
 
 const Plants = [
   {
@@ -21,7 +21,7 @@ const Plants = [
 ];
 
 const PlantsList: React.FC = () => {
-  
+
   return (
     <IonList>
     <div>

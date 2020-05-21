@@ -7,12 +7,11 @@ import {
   IonListHeader,
   IonMenu,
   IonMenuToggle,
-  IonNote,
 } from '@ionic/react';
 
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import { homeOutline, homeSharp, leafOutline, leafSharp, archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
+import { personOutline, personSharp, homeOutline, homeSharp, leafOutline, leafSharp } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -34,6 +33,12 @@ const appPages: AppPage[] = [
     url: '/page/my_plants',
     iosIcon: leafOutline,
     mdIcon: leafSharp
+  },
+  {
+    title: 'Profile',
+    url: '/page/profile',
+    iosIcon: personOutline,
+    mdIcon: personSharp
   },
   
 ];
