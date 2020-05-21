@@ -23,15 +23,6 @@
   text-decoration: none;
 }
 
-ion-item {
-  --border-color: #73849a;
-  --border-radius: 50px;
-  --padding-bottom: 0px;
-  /* --min-height: 70px; */
-  /* --border-width: 1px; */
-  --border-style: solid;
-}
-
 ion-item.md ion-label{
   font-size: 30px;
   color: #73849a;
