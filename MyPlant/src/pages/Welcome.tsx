@@ -1,7 +1,23 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonIcon, IonLabel, IonButton, IonSlides, IonSlide, IonImg } from '@ionic/react';
+import {
+  IonContent,
+  IonPage,
+  IonCard,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonCardContent,
+  IonItem,
+  IonIcon,
+  IonLabel,
+  IonButton,
+  IonSlides,
+  IonSlide,
+  IonImg
+} from '@ionic/react';
 import { pin, wifi, wine, warning, walk } from 'ionicons/icons';
 import './Welcome.css'
+import { Link } from 'react-router-dom';
 //import plants_home from 'assets'
 
 const slideOpts = {
@@ -70,6 +86,7 @@ const Welcome: React.FC = () => {
                 <IonIcon icon={walk} slot="start" />
                 <IonLabel>Card Button Item 2</IonLabel>
               </IonItem>
+              <Link to='/page/home'>Home</Link>
             </IonCard>
           </IonSlide>
         </IonSlides>
