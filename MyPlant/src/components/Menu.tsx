@@ -39,7 +39,8 @@ const appPages: AppPage[] = [
     url: '/page/profile',
     iosIcon: personOutline,
     mdIcon: personSharp
-  }
+  },
+  
 ];
 
 const Menu: React.FC = () => {
