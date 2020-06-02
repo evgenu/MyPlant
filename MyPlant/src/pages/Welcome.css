@@ -10,3 +10,7 @@ ion-card-header {
   --padding-bottom: 30%;
   --height: 50%;
 }
+
+a {
+  text-decoration: none;
+}

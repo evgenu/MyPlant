@@ -18,12 +18,12 @@ import {
 } from '@ionic/react';
 import { shareSocialOutline, heartOutline } from 'ionicons/icons';
 import React from 'react';
-import { useParams } from 'react-router';
+//import { useParams } from 'react-router';
 import './Home.css';
 
 const Page: React.FC = () => {
 
-  const { name } = useParams<{ name: string; }>();
+  //const { name } = useParams<{ name: string; }>();
 
   return (
     <IonPage>

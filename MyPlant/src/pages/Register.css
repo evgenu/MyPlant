@@ -1,0 +1,48 @@
+.my-ion-icon {
+    margin-left: auto;
+    margin-right: auto;
+    --margin-top: 50px;
+    width: 100%;
+    position: absolute;
+    --z-index: 10;
+    font-size: 64px;
+  }
+  
+  .my-ion-card {
+    height: 80%;
+    --background-color: blue;
+  
+    position:absolute;
+    top:0; bottom:0;
+    left: 0; right: 0;
+    margin-top:auto;
+    margin-bottom: auto;
+  }
+  
+  .my-ion-card-header {
+    height: auto;
+  }
+  
+  .my-ion-card-content {
+    height: 80%;
+  
+    position: absolute;
+    top:0; bottom:0;
+    left: 0; right: 0;
+    margin-top:auto;
+    margin-bottom: auto;
+  }
+  
+  #link_right {
+    text-decoration: none;
+    float: right;
+  }
+  
+  #login_bg {
+    --background: #fff url('https://i.pinimg.com/originals/22/2c/37/222c37370a1165deabe3c50c5c1620f8.jpg') no-repeat center center / cover;
+  }
+  
+  #login_card {
+    opacity: 0.9;
+  }
+  
