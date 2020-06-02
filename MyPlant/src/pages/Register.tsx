@@ -16,18 +16,22 @@ import './Login.css';
 import { personCircleOutline } from 'ionicons/icons';
 import { Link } from 'react-router-dom';
 
-const Login: React.FC = () => {
+const Register: React.FC = () => {
   return (
     <IonPage>
       <IonContent id="login_bg">
         <IonCard class="my-ion-card" id="login_card">
           <IonCardHeader>
             <IonIcon icon={personCircleOutline} class="my-ion-icon" />
-            <IonCardTitle>Sign in</IonCardTitle>
+            <IonCardTitle>Sign up</IonCardTitle>
             <br />
           </IonCardHeader>
           <IonCardContent>
             <form action="/page/home" method="POST">
+            <IonItem>
+              <IonLabel position="floating">Name</IonLabel>
+              <IonInput type="text" name='name' clearInput required></IonInput>
+            </IonItem>
             <IonItem>
               <IonLabel position="floating">Email</IonLabel>
               <IonInput type="email" name='email' clearInput required></IonInput>
@@ -35,14 +39,12 @@ const Login: React.FC = () => {
 
             <IonItem>
               <IonLabel position="floating">Password</IonLabel>
-              <IonInput type="password" name='pass' clearInput required minlength={8}></IonInput>
+              <IonInput type="password" name='pass' clearInput minlength={8} required></IonInput>
             </IonItem>
             <br />
-            <IonButton type="submit" expand="full">Sign In</IonButton>
+            <IonButton type="submit" expand="full">Sign Up</IonButton>
             </form>
-            <Link to="#" id="link_right">Forgot your password?</Link>
-            <br />
-            <Link to="/page/register" id="link_right">Don't have an account? Sign up now.</Link>
+            <Link to="/page/login" id="link_right">Already have an account? Sign in now.</Link>
           </IonCardContent>
         </IonCard>
       </IonContent>
@@ -50,4 +52,4 @@ const Login: React.FC = () => {
   );
 };
 
-export default Login;
+export default Register;

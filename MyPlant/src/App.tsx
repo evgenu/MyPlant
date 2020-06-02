@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Profile from './pages/Profile'
 import Welcome from './pages/Welcome'
 import Login from './pages/Login'
+import Register from './pages/Register'
 import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
@@ -42,6 +43,7 @@ const App: React.FC = () => {
             <Route path='/page/profile' component={Profile} exact />
             <Route path='/page/welcome' component={Welcome} exact />
             <Route path='/page/login' component={Login} exact />
+            <Route path='/page/register' component={Register} exact />
           </IonRouterOutlet>
         </IonSplitPane>
       </IonReactRouter>
