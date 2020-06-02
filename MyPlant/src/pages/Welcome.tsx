@@ -39,8 +39,8 @@ const Welcome: React.FC = () => {
             <IonCard color="tertiary">
               <IonImg src={slide_1_img}/>
               <IonCardHeader>
-                <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
-                <IonCardTitle>Card Title</IonCardTitle>
+                <IonCardSubtitle>Keep close to nature</IonCardSubtitle>
+                <IonCardTitle>My Plant</IonCardTitle>
               </IonCardHeader>
 
               <IonCardContent>
@@ -86,7 +86,7 @@ const Welcome: React.FC = () => {
                 <IonIcon icon={walk} slot="start" />
                 <IonLabel>Card Button Item 2</IonLabel>
               </IonItem>
-              <Link to='/page/home'>Home</Link>
+              <Link to='/page/login'>Sign in</Link>
             </IonCard>
           </IonSlide>
         </IonSlides>
