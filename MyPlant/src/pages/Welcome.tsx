@@ -86,7 +86,9 @@ const Welcome: React.FC = () => {
                 <IonIcon icon={walk} slot="start" />
                 <IonLabel>Card Button Item 2</IonLabel>
               </IonItem>
-              <Link to='/page/login'>Sign in</Link>
+              <IonButton expand='block' color='transparent'>
+                <Link to='/page/login'>Get started >></Link>
+              </IonButton>
             </IonCard>
           </IonSlide>
         </IonSlides>

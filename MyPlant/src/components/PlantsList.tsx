@@ -26,7 +26,7 @@ const PlantsList: React.FC = () => {
     <IonList>
     <div>
       {Plants.map((List) => (
-          <IonItem href={'/plant/'+List.id} detail={true} key={List.id}>
+          <IonItem href={'/page/my_plants/plant/'+List.name} detail={true} key={List.id}>
             <IonLabel>{List.name}</IonLabel>
             <IonNote slot='end'>{List.status}</IonNote>
           </IonItem>
