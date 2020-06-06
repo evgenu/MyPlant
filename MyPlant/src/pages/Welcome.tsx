@@ -13,7 +13,12 @@ import {
   IonButton,
   IonSlides,
   IonSlide,
-  IonImg
+  IonImg,
+  IonHeader,
+  IonToolbar,
+  IonButtons,
+  IonMenuButton,
+  IonTitle
 } from '@ionic/react';
 import { pin, wifi, wine, warning, walk } from 'ionicons/icons';
 import './Welcome.css'
@@ -33,7 +38,22 @@ const slide_1_img = 'https://techcrunch.com/wp-content/uploads/2019/08/20190530_
 const Welcome: React.FC = () => {
   return (
     <IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonButtons slot="start">
+            <IonMenuButton />
+          </IonButtons>
+          <IonTitle>Welcome</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+
       <IonContent>
+        <IonHeader collapse="condense">
+          <IonToolbar>
+            <IonTitle size="large">Welcome</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+        
         <IonSlides pager={true} options={slideOpts}>
           <IonSlide>
             <IonCard color="tertiary">
