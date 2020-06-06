@@ -8,7 +8,7 @@ import {
   IonContent,
 } from "@ionic/react";
 import React from "react";
-//import PlantData from "../components/PlantData"
+import PlantData from "../components/Plant_data"
 
 const href = window.location.href.split('/')
 const plant_id = href[href.length - 1]
@@ -32,7 +32,7 @@ const Plant: React.FC = () => {
               <IonTitle size="large">{plant_id}</IonTitle>
             </IonToolbar>
           </IonHeader>
-          
+          <PlantData/>
         </IonContent>
       </IonPage>
     );
