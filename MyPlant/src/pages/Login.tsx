@@ -27,7 +27,7 @@ const Login: React.FC = () => {
             <br />
           </IonCardHeader>
           <IonCardContent>
-            <form action="/page/home" method="POST">
+            <form action="/page/home" method="GET">
             <IonItem>
               <IonLabel position="floating">Email</IonLabel>
               <IonInput type="email" name='email' clearInput required></IonInput>

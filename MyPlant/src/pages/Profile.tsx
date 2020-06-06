@@ -17,8 +17,8 @@ import './Profile.css';
 
 const personal_data = {
   name: 'William Hodge',
-  age: '39',
-  plants: '9',
+  age: '17',
+  plants: '3',
   favourite_plant: 'Lotus'
 }
 
@@ -46,7 +46,7 @@ const Profile: React.FC = () => {
         <IonAvatar class='avatar'>
           <img src='https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y' alt=''/>
         </IonAvatar>
-        <p id='name'>William Hodge</p>
+        <p id='name'>Boyko Georgiev</p>
 
         <IonList>
           <IonItem>
