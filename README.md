@@ -43,3 +43,17 @@ http://aif.guide.bg/
 
 * **Бойко Георгиев** - *програмист, дизайнер, даде идеята* - Boyko03 https://github.com/Boyko03/
 * **Евгений Атанасов** - *програмист, дизайнер, предложи технологиите* - evgenu https://github.com/evgenu/
+
+## Some ScreenShots
+[AI Farm](screenshots/AI\Farm/AIFarm.JPG)
+[AI Farm schema](screenshots/AI\Farm/scheme.jpg)
+
+[AI Farm Web Home](screenshots/web/home.png)
+[AI Farm Web Main](screenshots/web/site_main.png)
+[AI Farm Web Plant Data](screenshots/web/site_data.png)
+
+[MyPlant Welcome](screenshots/mobile/MyPlant_welcome.png)
+[MyPlant Register](screenshots/mobile/register.png)
+[MyPlant Login](screenshots/mobile/login.png)
+[MyPlant Home](screenshots/mobile/home.png)
+[MyPlant Profile](screenshots/mobile/profile.png)
