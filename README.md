@@ -35,9 +35,9 @@ http://aif.guide.bg/
 
 ## Използвани технологии
 
-* Ionic https://ionicframework.com/ - cross-platform apps built with the web *
-* React.js https://reactjs.org/ JavaScript библиотека за UI *
-* Chart.js https://www.chartjs.org/ JavaScript charting библиотека *
+* Ionic https://ionicframework.com/ - *Cross-platform apps built with the web*
+* React.js https://reactjs.org/ - *JavaScript библиотека за UI*
+* Chart.js https://www.chartjs.org/ - *JavaScript charting библиотека*
 
 ## Информация за авторите на проекта
 
