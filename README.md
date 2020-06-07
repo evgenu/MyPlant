@@ -43,7 +43,3 @@ http://aif.guide.bg/
 
 * **Бойко Георгиев** - *програмист, дизайнер, даде идеята* - Boyko03 https://github.com/Boyko03/
 * **Евгений Атанасов** - *програмист, предложи технологиите* - evgenu https://github.com/evgenu/
-
-### Всякакви допълнителни модификации по README-то са добре дошли (Лиценз, contributing.md, и т.н.) :)
-README-template.md
-Displaying README-template.md.
