@@ -5,7 +5,7 @@
 *Това е мобилно приложение към AI Farm (системата ни за автоматизирано отглеждане на растения). Главната му функционалност е да предоставя лесен контрол над системата и бърз поглед върху състоянието на растенията.*
 
 ## Презентация
-[Линк към ресурса](screenshots/other/MyPlant.pptx)
+![Линк към ресурса](screenshots/other/MyPlant.pptx)
 
 ## Линк към уебсайта ни за администрация на AI Farm
 http://aif.guide.bg/
@@ -45,8 +45,8 @@ http://aif.guide.bg/
 * **Евгений Атанасов** - *програмист, дизайнер, предложи технологиите* - evgenu https://github.com/evgenu/
 
 ## Some ScreenShots
-![AI Farm](screenshots/AI\Farm/AIFarm.JPG)
-![AI Farm schema](screenshots/AI\Farm/scheme.jpg)
+![AI Farm](screenshots/AIFarm/AIFarm.JPG)
+![AI Farm schema](screenshots/AIFarm/scheme.jpg)
 
 ![AI Farm Web Home](screenshots/web/home.png)
 ![AI Farm Web Main](screenshots/web/site_main.png)
