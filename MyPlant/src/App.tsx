@@ -9,6 +9,7 @@ import Register from './pages/Register'
 import { IonApp, IonRouterOutlet, IonSplitPane } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
+import Lotus from './pages/Lotus';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -44,6 +45,7 @@ const App: React.FC = () => {
             <Route path='/page/welcome' component={Welcome} exact />
             <Route path='/page/login' component={Login} exact />
             <Route path='/page/register' component={Register} exact />
+            <Route path='/plant/sadasdasd' component={Lotus} exact />
           </IonRouterOutlet>
         </IonSplitPane>
       </IonReactRouter>
